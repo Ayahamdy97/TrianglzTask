@@ -10,5 +10,6 @@ target 'TrianglzTask' do
     pod 'RxCocoa'
     pod 'SkeletonView'
     pod 'Moya/RxSwift'
+    pod 'SDWebImage'
 
 end

@@ -7,20 +7,27 @@
 //
 
 import UIKit
-
+import RxCocoa
 
 class AppCoordinator {
     let window:UIWindow
-    
-    init(window:UIWindow) {
+    var navigationController: UINavigationController?
+    init(window:UIWindow, navController:UINavigationController) {
         self.window = window
+        self.navigationController = navController
     }
     
     func start()  {
-        let viewController = PhotosViewController.instantiate(storyboardName: "Main")
-        let navigation = UINavigationController(rootViewController: viewController)
-        window.rootViewController = navigation
-        window.makeKeyAndVisible()
+        let usersViewController = UsersViewController.instantiate(storyboardName: "Main")
+        usersViewController.usersViewModel = UsersViewModel(coordinator: self, userNetwork: UsersNetworkManager())
+        navigationController?.pushViewController(usersViewController, animated: true)
+        
+    }
+    
+    func navigateToUserDetails(user:UserElement)  {
+        let userDetailsViewController = UserDetailsViewController.instantiate(storyboardName: "UserDetails")
+        userDetailsViewController.userDetailsViewModel = UserDetailsViewModel(user: user)
+        navigationController?.pushViewController(userDetailsViewController, animated: true)
     }
     
     

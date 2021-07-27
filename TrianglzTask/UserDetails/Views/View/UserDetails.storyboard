@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--User Details View Controller-->
+        <scene sceneID="rPf-Qz-h3U">
+            <objects>
+                <viewController storyboardIdentifier="UserDetailsViewController" id="2lq-KB-Imq" customClass="UserDetailsViewController" customModule="TrianglzTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m6I-5h-gPe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YJk-eg-lUE">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zI5-je-uJN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1131"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nwr-gh-NJT">
+                                                <rect key="frame" x="20" y="20" width="374" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="BAu-wh-lc4"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zVd-Mk-4Fn">
+                                                <rect key="frame" x="20" y="340" width="374" height="771"/>
+                                                <mutableString key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved oIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved o</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="zVd-Mk-4Fn" firstAttribute="leading" secondItem="zI5-je-uJN" secondAttribute="leading" constant="20" id="56t-hm-8Fp"/>
+                                            <constraint firstItem="Nwr-gh-NJT" firstAttribute="top" secondItem="zI5-je-uJN" secondAttribute="top" constant="20" id="B2c-tM-acR"/>
+                                            <constraint firstAttribute="trailing" secondItem="Nwr-gh-NJT" secondAttribute="trailing" constant="20" id="JiN-6L-5tU"/>
+                                            <constraint firstItem="Nwr-gh-NJT" firstAttribute="leading" secondItem="zI5-je-uJN" secondAttribute="leading" constant="20" id="Ouh-1q-SEo"/>
+                                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="zVd-Mk-4Fn" secondAttribute="bottom" constant="20" id="T2M-o5-pQs"/>
+                                            <constraint firstItem="zVd-Mk-4Fn" firstAttribute="top" secondItem="Nwr-gh-NJT" secondAttribute="bottom" constant="20" id="gdU-bu-vqm"/>
+                                            <constraint firstAttribute="trailing" secondItem="zVd-Mk-4Fn" secondAttribute="trailing" constant="20" id="hmz-7x-GAP"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="zI5-je-uJN" secondAttribute="bottom" id="7Bq-ZK-1Mx"/>
+                                    <constraint firstItem="zI5-je-uJN" firstAttribute="height" secondItem="YJk-eg-lUE" secondAttribute="height" priority="250" id="Msk-Zg-UBp"/>
+                                    <constraint firstAttribute="trailing" secondItem="zI5-je-uJN" secondAttribute="trailing" id="cke-bI-lob"/>
+                                    <constraint firstItem="zI5-je-uJN" firstAttribute="top" secondItem="YJk-eg-lUE" secondAttribute="top" id="iZF-yZ-fvB"/>
+                                    <constraint firstItem="zI5-je-uJN" firstAttribute="width" secondItem="YJk-eg-lUE" secondAttribute="width" id="sAs-kJ-LnV"/>
+                                    <constraint firstItem="zI5-je-uJN" firstAttribute="leading" secondItem="YJk-eg-lUE" secondAttribute="leading" id="z8G-4k-SwV"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="YJk-eg-lUE" firstAttribute="leading" secondItem="5pE-ow-lMf" secondAttribute="leading" id="P9g-KE-8GZ"/>
+                            <constraint firstItem="YJk-eg-lUE" firstAttribute="top" secondItem="5pE-ow-lMf" secondAttribute="top" id="d1G-CM-yoC"/>
+                            <constraint firstItem="5pE-ow-lMf" firstAttribute="bottom" secondItem="YJk-eg-lUE" secondAttribute="bottom" id="gHo-mK-jH0"/>
+                            <constraint firstItem="YJk-eg-lUE" firstAttribute="trailing" secondItem="5pE-ow-lMf" secondAttribute="trailing" id="r28-r4-z4l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5pE-ow-lMf"/>
+                    </view>
+                    <connections>
+                        <outlet property="userImage" destination="Nwr-gh-NJT" id="a8A-eL-4Tp"/>
+                        <outlet property="userName" destination="zVd-Mk-4Fn" id="20t-qN-HT7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkp-Ch-4AM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="219" y="35"/>
+        </scene>
+    </scenes>
+</document>

@@ -11,6 +11,11 @@
 		035CF13626B05C5F00A4B4E8 /* UsersNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CF13526B05C5F00A4B4E8 /* UsersNetworkManager.swift */; };
 		035CF13826B05D7700A4B4E8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CF13726B05D7700A4B4E8 /* User.swift */; };
 		035CF13A26B05E5800A4B4E8 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CF13926B05E5800A4B4E8 /* UsersViewModel.swift */; };
+		035CF13C26B05FD900A4B4E8 /* UsersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CF13B26B05FD900A4B4E8 /* UsersTableViewCell.swift */; };
+		0395B17626B06A8F002F8EF0 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0395B17526B06A8F002F8EF0 /* UIViewControllerExtension.swift */; };
+		0395B17F26B07332002F8EF0 /* UserDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0395B17E26B07332002F8EF0 /* UserDetails.storyboard */; };
+		0395B18126B07344002F8EF0 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0395B18026B07344002F8EF0 /* UserDetailsViewController.swift */; };
+		0395B18326B07352002F8EF0 /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0395B18226B07352002F8EF0 /* UserDetailsViewModel.swift */; };
 		03DA6A8126B0494800030802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA6A8026B0494800030802 /* AppDelegate.swift */; };
 		03DA6A8326B0494800030802 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA6A8226B0494800030802 /* SceneDelegate.swift */; };
 		03DA6A8826B0494800030802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DA6A8626B0494800030802 /* Main.storyboard */; };
@@ -18,7 +23,7 @@
 		03DA6A8D26B0494A00030802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DA6A8B26B0494A00030802 /* LaunchScreen.storyboard */; };
 		03DA6A9526B04AE100030802 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA6A9426B04AE100030802 /* AppCoordinator.swift */; };
 		03DA6A9726B04B5000030802 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA6A9626B04B5000030802 /* Storyboarded.swift */; };
-		03DA6A9926B04C4200030802 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA6A9826B04C4200030802 /* PhotosViewController.swift */; };
+		03DA6A9926B04C4200030802 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DA6A9826B04C4200030802 /* UsersViewController.swift */; };
 		734D8BE979E057DA4CFB6E63 /* Pods_TrianglzTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3726C9F633AD72354ED9DDDF /* Pods_TrianglzTask.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +32,11 @@
 		035CF13526B05C5F00A4B4E8 /* UsersNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersNetworkManager.swift; sourceTree = "<group>"; };
 		035CF13726B05D7700A4B4E8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		035CF13926B05E5800A4B4E8 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		035CF13B26B05FD900A4B4E8 /* UsersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewCell.swift; sourceTree = "<group>"; };
+		0395B17526B06A8F002F8EF0 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		0395B17E26B07332002F8EF0 /* UserDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserDetails.storyboard; sourceTree = "<group>"; };
+		0395B18026B07344002F8EF0 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		0395B18226B07352002F8EF0 /* UserDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewModel.swift; sourceTree = "<group>"; };
 		03DA6A7D26B0494800030802 /* TrianglzTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrianglzTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DA6A8026B0494800030802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03DA6A8226B0494800030802 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +46,7 @@
 		03DA6A8E26B0494A00030802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03DA6A9426B04AE100030802 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		03DA6A9626B04B5000030802 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
-		03DA6A9826B04C4200030802 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		03DA6A9826B04C4200030802 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		3726C9F633AD72354ED9DDDF /* Pods_TrianglzTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrianglzTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		639E12448ABA475BD5981682 /* Pods-TrianglzTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrianglzTask.debug.xcconfig"; path = "Target Support Files/Pods-TrianglzTask/Pods-TrianglzTask.debug.xcconfig"; sourceTree = "<group>"; };
 		F17189FDE0E1F09E02EBC3EF /* Pods-TrianglzTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrianglzTask.release.xcconfig"; path = "Target Support Files/Pods-TrianglzTask/Pods-TrianglzTask.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,12 +64,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		035CF12E26B0589100A4B4E8 /* ViewMode */ = {
+		035CF12E26B0589100A4B4E8 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				035CF13926B05E5800A4B4E8 /* UsersViewModel.swift */,
 			);
-			path = ViewMode;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		035CF12F26B058A100A4B4E8 /* Network */ = {
@@ -77,6 +87,72 @@
 				035CF13726B05D7700A4B4E8 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0395B17426B06A6C002F8EF0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0395B17526B06A8F002F8EF0 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0395B17726B071EC002F8EF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				03DA6A8626B0494800030802 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0395B17826B072C5002F8EF0 /* UserDetails */ = {
+			isa = PBXGroup;
+			children = (
+				0395B17A26B07305002F8EF0 /* Views */,
+				0395B17926B072F9002F8EF0 /* ViewModel */,
+			);
+			path = UserDetails;
+			sourceTree = "<group>";
+		};
+		0395B17926B072F9002F8EF0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0395B18226B07352002F8EF0 /* UserDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0395B17A26B07305002F8EF0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0395B17D26B07316002F8EF0 /* View */,
+				0395B17C26B0730F002F8EF0 /* Controller */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0395B17C26B0730F002F8EF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0395B18026B07344002F8EF0 /* UserDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0395B17D26B07316002F8EF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0395B17E26B07332002F8EF0 /* UserDetails.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0395B18426B08F09002F8EF0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0395B17426B06A6C002F8EF0 /* Extensions */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		03DA6A7426B0494800030802 = {
@@ -100,13 +176,13 @@
 		03DA6A7F26B0494800030802 /* TrianglzTask */ = {
 			isa = PBXGroup;
 			children = (
-				03DA6A9A26B04C9600030802 /* Photos */,
+				0395B18426B08F09002F8EF0 /* Utilities */,
+				0395B17826B072C5002F8EF0 /* UserDetails */,
+				03DA6A9A26B04C9600030802 /* Users */,
 				03DA6A8026B0494800030802 /* AppDelegate.swift */,
-				03DA6A9826B04C4200030802 /* PhotosViewController.swift */,
 				03DA6A8226B0494800030802 /* SceneDelegate.swift */,
 				03DA6A9426B04AE100030802 /* AppCoordinator.swift */,
 				03DA6A9626B04B5000030802 /* Storyboarded.swift */,
-				03DA6A8626B0494800030802 /* Main.storyboard */,
 				03DA6A8926B0494A00030802 /* Assets.xcassets */,
 				03DA6A8B26B0494A00030802 /* LaunchScreen.storyboard */,
 				03DA6A8E26B0494A00030802 /* Info.plist */,
@@ -114,20 +190,21 @@
 			path = TrianglzTask;
 			sourceTree = "<group>";
 		};
-		03DA6A9A26B04C9600030802 /* Photos */ = {
+		03DA6A9A26B04C9600030802 /* Users */ = {
 			isa = PBXGroup;
 			children = (
 				035CF13426B05A1900A4B4E8 /* Model */,
 				035CF12F26B058A100A4B4E8 /* Network */,
-				035CF12E26B0589100A4B4E8 /* ViewMode */,
+				035CF12E26B0589100A4B4E8 /* ViewModel */,
 				03DA6A9B26B04C9B00030802 /* Views */,
 			);
-			path = Photos;
+			path = Users;
 			sourceTree = "<group>";
 		};
 		03DA6A9B26B04C9B00030802 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0395B17726B071EC002F8EF0 /* View */,
 				03DA6A9D26B04CAB00030802 /* Cells */,
 				03DA6A9C26B04CA400030802 /* Controller */,
 			);
@@ -137,6 +214,7 @@
 		03DA6A9C26B04CA400030802 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				03DA6A9826B04C4200030802 /* UsersViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -144,6 +222,7 @@
 		03DA6A9D26B04CAB00030802 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				035CF13B26B05FD900A4B4E8 /* UsersTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -227,6 +306,7 @@
 			files = (
 				03DA6A8D26B0494A00030802 /* LaunchScreen.storyboard in Resources */,
 				03DA6A8A26B0494A00030802 /* Assets.xcassets in Resources */,
+				0395B17F26B07332002F8EF0 /* UserDetails.storyboard in Resources */,
 				03DA6A8826B0494800030802 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,13 +362,17 @@
 			files = (
 				035CF13626B05C5F00A4B4E8 /* UsersNetworkManager.swift in Sources */,
 				03DA6A9526B04AE100030802 /* AppCoordinator.swift in Sources */,
+				0395B18126B07344002F8EF0 /* UserDetailsViewController.swift in Sources */,
+				0395B18326B07352002F8EF0 /* UserDetailsViewModel.swift in Sources */,
 				03DA6A9726B04B5000030802 /* Storyboarded.swift in Sources */,
 				03DA6A8126B0494800030802 /* AppDelegate.swift in Sources */,
+				035CF13C26B05FD900A4B4E8 /* UsersTableViewCell.swift in Sources */,
 				035CF13826B05D7700A4B4E8 /* User.swift in Sources */,
 				03DA6A8326B0494800030802 /* SceneDelegate.swift in Sources */,
 				035CF13126B058B300A4B4E8 /* UsersService.swift in Sources */,
 				035CF13A26B05E5800A4B4E8 /* UsersViewModel.swift in Sources */,
-				03DA6A9926B04C4200030802 /* PhotosViewController.swift in Sources */,
+				0395B17626B06A8F002F8EF0 /* UIViewControllerExtension.swift in Sources */,
+				03DA6A9926B04C4200030802 /* UsersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
