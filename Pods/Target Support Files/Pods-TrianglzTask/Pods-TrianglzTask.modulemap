@@ -1,0 +1,6 @@
+framework module Pods_TrianglzTask {
+  umbrella header "Pods-TrianglzTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

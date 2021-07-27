@@ -6,5 +6,9 @@ target 'TrianglzTask' do
   use_frameworks!
 
   # Pods for TrianglzTask
+    pod 'RxSwift'
+    pod 'RxCocoa'
+    pod 'SkeletonView'
+    pod 'Moya/RxSwift'
 
 end
